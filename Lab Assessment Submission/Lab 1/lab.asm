@@ -4,9 +4,9 @@
 
 org 100h   ;#include <stdio.h>
 MOV AX, 01
-MOV BX, 05
-MOV CX, 05
-ADD AX,BX,CX               ;int main(){
+ADD AX, 05
+ADD AX, 05
+               ;int main(){
                 ;int a=2;
                 ;int b=3;
                 ;int c=a+b;
