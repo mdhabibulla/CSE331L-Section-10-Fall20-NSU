@@ -6,7 +6,7 @@ org 100h
 
 a DB 5 DUP(5)
 
-b DB 1,2
+b DB 7 DUP(1,2)
 
 ret
 
